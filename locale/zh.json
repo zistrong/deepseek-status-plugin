@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek 服务状态",
+    "description": "在输入框下方显示 DeepSeek API 的可用性与延迟。"
+  }
+}

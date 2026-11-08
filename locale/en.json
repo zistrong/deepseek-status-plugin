@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek service status",
+    "description": "Shows DeepSeek API availability and latency below the composer."
+  }
+}
