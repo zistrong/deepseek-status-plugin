@@ -1,12 +1,12 @@
 /**
- * Client half of `@local/deepseek-status`: a dock pill that opens the same
+ * Client half of `@zistrong/deepseek-status`: a dock pill that opens the same
  * kind of click-anchored dialog the Token usage pill uses — portaled to
  * document.body, placed above the trigger, closed on Escape or an outside
  * pointer press.
  */
 
 window.__ModuleLoader__.load({
-  id: '@local/deepseek-status',
+  id: '@zistrong/deepseek-status',
   factory(require) {
     const React = require('react')
     const { createPortal } = require('react-dom')
@@ -29,7 +29,7 @@ window.__ModuleLoader__.load({
     const MEASURE_STYLE = { visibility: 'hidden', left: 0, top: 0 }
 
     /** Stylesheet tag identity, so a reload replaces rather than duplicates it. */
-    const CSS_TAG = '@local/deepseek-status/status.css'
+    const CSS_TAG = '@zistrong/deepseek-status/status.css'
 
     const CSS = `
       .dsk-status-anchor{min-width:0;font-size:calc(var(--dsh-content-font-size-secondary,13px) - 1px);line-height:calc(20px + var(--dsh-content-font-delta-secondary,0px));display:inline-flex}
@@ -179,7 +179,7 @@ window.__ModuleLoader__.load({
       ctx.effect(() => ctx.locale.register(NS, dictionaries), 'deepseek-status: dictionaries')
       ctx.effect(() => {
         const tag = document.createElement('style')
-        tag.dataset.plugin = '@local/deepseek-status'
+        tag.dataset.plugin = '@zistrong/deepseek-status'
         tag.dataset.pluginCss = CSS_TAG
         tag.textContent = CSS
         document.head.appendChild(tag)

@@ -1,6 +1,6 @@
 {
   "name": "@zistrong/deepseek-status",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "Shows DeepSeek API service availability and latency in the Web UI.",
   "type": "module",

@@ -1,5 +1,5 @@
 /**
- * Host half of `@local/deepseek-status`.
+ * Host half of `@zistrong/deepseek-status`.
  *
  * Probes the DeepSeek API surfaces this profile can use and answers the
  * browser through one exact Fetch route on the shared `/api` channel, so the
